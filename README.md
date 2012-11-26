@@ -18,3 +18,7 @@ A simple documention site with markdown.
     http://example.com/site/404
     // another page : wiki/vim/vimwiki.md
     http://example.com/vim/vimwiki
+
+**Demo**
+
+    http://minimee.org
