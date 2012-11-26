@@ -19,6 +19,14 @@ A simple documention site with markdown.
     // another page : wiki/vim/vimwiki.md
     http://example.com/vim/vimwiki
 
+**Example**
+
+    %page tile%
+
+    #Mdoc
+
+    A simple site.
+
 **Demo**
 
     http://minimee.org
