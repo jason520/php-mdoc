@@ -22,9 +22,9 @@ $dir = isset($_GET['dir']) ? $_GET['dir'] : 'site';
 $file = isset($_GET['file']) ? $_GET['file'] : $dir;
 
 // 获取文档完整地址
-$path = __DIR__.'/'.MDOC.'/'.$dir.'/'.$file.EXT;
-if ( ! file_exists($path)) {
-    $path = __DIR__.'/'.MDOC.'/site/404'.EXT;
+$path = __DIR__ . '/' . MDOC . '/' . $dir . '/' . $file . EXT;
+if (!file_exists($path)) {
+    $path = __DIR__ . '/' . MDOC . '/site/404' . EXT;
 }
 
 // 读取文档内容，并通过正则提取相关信息
@@ -46,10 +46,8 @@ if (empty($match)) {
 // Markdown转换为HTML
 $markdownParser = new MarkdownExtraParser();
 $data['content'] = $markdownParser->transformMarkdown($data['content']);
-
 // 模板完整路径
-$template = __DIR__.'/template/mdoc.php';
-
+$template = __DIR__ . '/template/mdoc.php';
 // 实例化模板类
 $template = new Template($template, $data);
 
