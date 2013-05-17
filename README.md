@@ -6,7 +6,7 @@ A simple documention site with markdown.
 **Install**
 
     // download
-    $ git clone git@github.com:zither/php-mdoc.git
+    $ git clone https://github.com/zither/php-mdoc.git
     // install
     $ php composer install
 
