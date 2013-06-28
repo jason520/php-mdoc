@@ -1,7 +1,7 @@
 php-mdoc
 ========
 
-A simple documention site with markdown.
+A simple documentation site with markdown.
 
 **Install**
 
